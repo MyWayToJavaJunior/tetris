@@ -7,4 +7,4 @@
 <p>Start StartingClass.java to launch the game or embed it in an <object> tag to deploy on website.</p>
 
 <h2>Screenshots</h2>
-<div style="display:inline-block;"><img scr="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/square.png"></div>
+<div style="display:inline-block;"><img src="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/Square.png"></div>
