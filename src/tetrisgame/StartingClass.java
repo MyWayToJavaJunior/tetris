@@ -32,13 +32,14 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 		// Frame frame = (Frame) this.getParent().getParent();
 		// frame.setTitle("Tetris");
 		try {
-			base = getDocumentBase();
+			base = StartingClass.class.getResource("/data/Square.png");
+			System.out.println(base);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
 		// Image Setups
-		square = getImage(base, "data/Square.png");
+		square = getImage(base);
 
 		// Fill array tilemap
 		figure.setUpTilemap();
@@ -59,7 +60,6 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 	public void run() {
 
 		while (figure.keepRunning) {
-
 			// Update the moving figure
 			figure.update();
 
@@ -103,12 +103,12 @@ public class StartingClass extends Applet implements Runnable, KeyListener {
 
 		// Paint tilemap for debugging
 
-		for (int i = 0; i < tilemap.length; i++) {
-			for (int j = 0; j < tilemap[0].length; j++) {
-				Tile tile = figure.tilemap[i][j];
-				g.drawRect(tile.getX(), tile.getY(), tileWidth, tileWidth);
-			}
-		}
+//		for (int i = 0; i < tilemap.length; i++) {
+//			for (int j = 0; j < tilemap[0].length; j++) {
+//				Tile tile = figure.tilemap[i][j];
+//				g.drawRect(tile.getX(), tile.getY(), tileWidth, tileWidth);
+//			}
+//		}
 
 		// Paint tiles taken by squares
 		for (int columns = 0; columns < tilemap.length; columns++) {
