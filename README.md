@@ -18,7 +18,7 @@
 <p>Start StartingClass.java to launch the game or embed it in an <object> tag to deploy on website.</p>
 
 <h2>Screenshots</h2>
-<div class="table">
-<div class="cell"><img  src="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/screenshot1.png"></div>
-<div class="cell"><img width="309" height = "472" src="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/screenshot2.png"></div>
-</div>
+<span class="table">
+<span class="cell"><img  src="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/screenshot1.png"></span>
+<span class="cell"><img width="309" height = "472" src="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/screenshot2.png"></span>
+</span>
