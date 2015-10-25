@@ -15,7 +15,7 @@
 <p>A tetris game written in Java.</p>
 
 <h2>How to lauch</h2>
-<p>Start StartingClass.java to launch the game or embed it in an '<object>' tag to deploy on website.</p>
+<p>Start StartingClass.java to launch the game or embed it in an object tag to deploy on website.</p>
 
 <h2>Screenshots</h2>
 <span class="table">
