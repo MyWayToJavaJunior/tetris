@@ -8,3 +8,4 @@
 
 <h2>Screenshots</h2>
 <div style="display:inline-block;"><img src="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/screenshot1.png"></div>
+<div style="display:inline-block;"><img src="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/screenshot2.png"></div>
