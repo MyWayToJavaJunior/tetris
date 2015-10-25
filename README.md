@@ -6,6 +6,8 @@
 
   .cell {
     display: table-cell;
+    width : 309;
+    height : 472;
   }
 </style>
 
@@ -17,6 +19,6 @@
 
 <h2>Screenshots</h2>
 <div class="table">
-<div class="cell" width="309" height = "472"><img  src="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/screenshot1.png"></div>
-<div class="cell" width="309" height = "472"><img width="309" height = "472" src="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/screenshot2.png"></div>
+<div class="cell"><img  src="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/screenshot1.png"></div>
+<div class="cell"><img width="309" height = "472" src="https://raw.githubusercontent.com/IlyaIvanov1/Tetris/master/src/data/screenshot2.png"></div>
 </div>
