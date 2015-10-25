@@ -1,15 +1,4 @@
 # Tetris
-<style>
-  .table {
-    display: table;
-  }
-
-  .cell {
-    display: table-cell;
-    width : 309;
-    height : 472;
-  }
-</style>
 
 <h2>Description</h2>
 <p>A tetris game written in Java.</p>
